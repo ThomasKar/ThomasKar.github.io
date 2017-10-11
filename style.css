@@ -1,0 +1,98 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+	background-image: url(https://wpapers.ru/wallpapers/Space/11484/1600x1200_%D0%A1%D0%B8%D0%BD%D0%B8%D0%B9-%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D1%81.jpg);
+	color: #333;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1{
+	background-color: white;
+	font-size: 110px;
+	color: orange;
+	padding: 30px;
+	margin:20px;
+}
+.menu-container {
+	text-align: center;
+	min-width: 930px;
+	min-height: 116px;
+	overflow: hidden;
+
+}
+.menu-left{
+	float: left;
+	max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.menu-right{
+	float: right;
+	 max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#menuCenter{
+	display: inline-block;
+	
+}
+
+
+.item {
+  position: relative;
+  
+  border: 1px solid #333;
+  margin: 2%;
+  overflow: hidden;
+  width: 540px;
+}
+
+.menu-left:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.menu-right:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#vid1 {
+	text-align: center;
+}
+
+
+}
+button{
+	background-color: white;
+	color:black;
+	line-height: 1;
+
+}
+ul{
+	text-align: center;
+	margin:0;
+	padding:0;
+	list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+li{
+	text-align: -webkit-match-parent;
+	display: inline-block;
+}
