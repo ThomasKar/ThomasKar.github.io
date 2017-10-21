@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="TeleportQualitystyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Ribeye" rel="stylesheet">
+</head>
+	
+<body>
+	<h1>Where is Da Life?</h1>
+	<p>Available Countries by Continent: 
+		
+			<select id="continents" onchange="getContinent();" value=" " >
+				<option value="" selected disabled hidden>Choose here</option>
+				<option value="AF">Africa</option>
+				<option value="AS">Asia</option>
+				<option value="EU">Europe</option>
+				<option value="OC">Oceania</option>
+				<option value="SA">South America</option>
+				<option value="NA">North America</option>
+
+			</select>
+	
+</p>
+	<div id="realContainer">
+		<div id="slider">
+			<figure>
+				<img src="images/Asset 2.png" alt>
+				<!--
+				<img id="LatinAmerica" src="images/PanamaCity.jpg" alt>
+				<img id="Europe" src="/images/Paris.jpg" alt>
+				<img id="Asia" src="images/image.jpg" alt>
+				<img id="NorthAmerica" src="images/Vancouver.jpg" alt>
+				<img id="Austalasia" src="images/Sydney.jpg" alt>
+				-->
+			</figure>
+		</div>
+		<div id="container">
+			<div id="cities1"></div>
+			<div id="cities2"></div>
+			<div id="cities3"></div>
+			<div id="cities4"></div>
+			<div id="cities5"></div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="TQ.js"></script>
+
+</html>
