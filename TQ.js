@@ -5,6 +5,7 @@ var countries = 'countries/';
 var locations = 'locations/';
 var timezones = 'timezones/';
 var urbanAreas = 'urban_areas';
+var url1 = api + urbanAreas;
 
 function getContinent(){
 	var selectedContinent = document.getElementById("continents").value;
@@ -27,7 +28,7 @@ function getContinent(){
 
 			var container = document.getElementById('container');
 			console.log(container);
-			console.log(container._links)
+			
 
 			
 			container.innerHTML = '<h2>'+selectedContinent +' countries'+'</h2>' ;
@@ -35,23 +36,61 @@ function getContinent(){
 
 			for ( var i=1; i < response._links['country:items'].length; i++){
 
-
-				container.innerHTML = container.innerHTML  + '<div id="cell'+i+'">'+ ' ' + i + '. '+response._links['country:items'][i].name;+'</div>';
-
-
+				var divName = response._links['country:items'][i].name;
+				container.innerHTML = container.innerHTML  + '<div id="' + divName + '">'+ ' ' + i + '. '+divName+'</div>';
 
 
+				}
+		})
+
+}
 
 
+function ua(){
+fetch(url1)
+		.then(function(response1){
+			return response1.json();
+		})
+		.then(function(response1){
+			console.log(response1);
+			console.log(response1._links['ua:item'].length);
+
+			
+
+			var container1 = document.getElementById('container1');
+			console.log(container1);
+			
+
+				
+
+			for ( var i=1; i < response1._links['ua:item'].length; i++){
+
+				var divUA = response1._links['ua:item'][i].name;
+				container1.innerHTML = container1.innerHTML  + '<div id="' + divUA + '">'+ ' ' + i + '. '+divUA+'</div>';
 
 
+				}
+		})
+	}
 
 
+				/*console.log(response._links);
+				console.log(response._links.continents);
+				console.log(response._links.length);
 
 
+	var container = document.getElementById('container');
+	console.log(container);
+
+	
+}
+
+	
+
+    
 
 
-/*
+    /*
 					if (i < 13){
 						var container = document.getElementById('cities1')
 						container.innerHTML = container.innerHTML  +  ' ' + i + '. '+response._links['country:items'][i].name;
@@ -76,23 +115,6 @@ function getContinent(){
 						container.innerHTML = container.innerHTML + '<div id="cities5">'+ ' ' + i + '. ' +response._links['country:items'][i].name;+'</div>';
 						}
 						*/
-				}
-		})
-}
-				/*console.log(response._links);
-				console.log(response._links.continents);
-				console.log(response._links.length);
-
-
-	var container = document.getElementById('container');
-	console.log(container);
-
-	
-}
-
-	
-
-    
 
 
 /*

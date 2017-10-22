@@ -42,7 +42,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s slidy infinite; 
+  animation: 50s slidy infinite; 
 }
 
 #container {
@@ -65,6 +65,34 @@ div#slider figure {
 	height: auto;
 	padding-left: 30px;
 	display: inline-block;
+}
+
+#container1 {
+	
+	font-size: 30px;
+	text-decoration: underline;
+	font-style: 
+	top:8px;
+	left: 16px;
+	background-color: transparent;
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	margin: auto;
+	
+	z-index: 10;
+}
+
+#container1 div {
+	font-size: 28px;
+	width: auto;
+	height: auto;
+	padding-left: 30px;
+	display: inline-block;
+}
+
+#urList {
+	font-size: 18px;
 }
 /*
 .Africa {
