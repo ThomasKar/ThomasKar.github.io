@@ -1,0 +1,282 @@
+.wrapper-index {
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    z-index: 1;
+    font-family: Nunito;
+}
+
+#imgleft{
+    width: 100%;
+}
+
+#imgright{
+    width: 100%;
+}
+    
+#filter {
+    background-color: rgba(0, 174, 239, 0.5);
+    width: 100%;
+    min-height: 100vh;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    z-index: 3;
+    margin-top: 25vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+    width: 80%;
+}
+
+#logo {
+    width: 70px;
+    height: 100%;
+}
+
+.share {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+#share {
+    color: white;
+}
+
+.score {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+
+#score {
+    color: white;
+}
+
+.content-landing {
+    margin: 0 auto;
+    z-index: 3;
+    margin-top: 18vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo-landing {
+    text-align: center;
+}
+
+#logo-landing {
+    width: 170px;
+    height: 100%;
+    padding-bottom: 2vh;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+#image-left {
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    transform: scale;
+}
+
+#image-right {
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    transform: scale;
+}
+
+.text {
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 60%;
+    min-height: 10vh;
+    margin: 0 auto;
+    padding: 2vh 7vh;
+    font-family: Nunito;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-landing {
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 60%;
+    min-height: 10vh;
+    margin: 0 auto;
+    padding: 2vh 7vh;
+    font-family: Nunito;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    margin-top: -10%;
+    margin-bottom: 7%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#tweet {
+    font-size: 4vh;
+    color: #FFFFFF;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: Nunito;
+    display: flex;
+}
+
+#tweet-landing {
+    font-size: 4vh;
+    color: #FFFFFF;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-family: Nunito;
+}
+
+#bold {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+#time {
+    font-size: 2vh;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 5vh;
+}
+
+.buttons {
+    width: 700px;
+    margin-top: 90vh;
+    display: flex;
+    margin: 0 auto;
+    font-family: Nunito;
+}
+
+.buttonLeft-wrapper {
+    width: 499px;
+    height: 100%;
+}
+
+#buttonLeft {
+    float: right;
+    margin-right: 50px;
+}
+
+#bl {
+    height: 100%;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 20px;
+    margin-right: 0;
+    font-weight: 700;
+    font-family: Nunito;
+}
+
+.buttonRight-wrapper {
+    width: 499px;
+    height: 100%;
+}
+
+#buttonRight {
+    float: left;
+    margin-left: 50px;
+}
+
+#br {
+    height: 100%;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Nunito;
+}
+
+.button {
+    width: 250px;
+    margin-top: 90vh;
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    font-family: Nunito;
+}
+
+.button-wrapper {
+    width: 499px;
+    height: 100%;
+}
+
+#button-landing {
+    float: center;
+    font-weight: 700;
+}
+
+#b {
+    height: 100%;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 20px;
+    margin-right: 0;
+    font-family: Nunito;
+    font-weight: 700;
+}
